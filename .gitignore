@@ -1,3 +1,9 @@
+# FrontEnd App Config
+
 ./frontendApp/node_modules
 ./frontendApp/package.lock.json
+
+
+# BackEnd App Config
 ./backendApp/bin
+./backendApp/obj

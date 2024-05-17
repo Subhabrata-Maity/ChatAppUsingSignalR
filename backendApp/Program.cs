@@ -11,16 +11,16 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddCors(out:CorsOptions =>
-{
-    opt.AddPolicy(name: "reactApp", configurePolicy: builder =>
-    {
-        builder.WithOrigins("http://localhost:3000/")
-        .AllowAnyHeader()
-        .AllowAnyMethod()
-        .AllowCredentials();
-    });
-});
+// builder.Services.AddCors(out:CorsOptions =>
+// {
+//     opt.AddPolicy(name: "reactApp", configurePolicy: builder =>
+//     {
+//         builder.WithOrigins("http://localhost:3000/")
+//         .AllowAnyHeader()
+//         .AllowAnyMethod()
+//         .AllowCredentials();
+//     });
+// });
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

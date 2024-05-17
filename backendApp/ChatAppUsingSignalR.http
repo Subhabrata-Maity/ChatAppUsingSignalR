@@ -1,0 +1,6 @@
+@ChatAppUsingSignalR_HostAddress = http://localhost:5057
+
+GET {{ChatAppUsingSignalR_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

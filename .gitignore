@@ -1,2 +1,3 @@
 ./frontendApp/node_modules
-./backendApp/.bin/
+./frontendApp/package.lock.json
+./backendApp/bin
